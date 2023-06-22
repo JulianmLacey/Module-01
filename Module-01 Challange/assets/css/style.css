@@ -1,133 +1,163 @@
+/* Sets display of all elements with class selector to block */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+/* Sets the background color of the page*/
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
+/*------------------------------Header-----------------------------*/
+
+/* Sets The font padding and color of the header bar */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #205ca0;
+  padding: 20px;
+  background-color: #2a607c;
+  color: white;
 }
 
+/* font and position of page selectors */
 .header h1 {
-    color: white;
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 
+/* Sets the style of the header */
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
+/* sets the style of the header list */
 .header div ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
+/* sets the style of the header list items, positioning*/
 .header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
+  scroll-behavior: smooth;
 }
 
+/* sets the size of the universial text, white with no decoration */
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
-
+a:hover {
+    color: rgb(184, 205, 238);
+} 
+/* sets the universial paragraph font size */
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
+/*------------------------------HERO-----------------------------*/
+/* Sets the style of the main image */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/*------------------------------Content-----------------------------*/
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* sets the style of the content selector */
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+  scroll-behavior: smooth;
 }
 
+/*------------------------------Tile-----------------------------*/
+/*sets the style of the tile selector*/
 .tile {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
+/* sets the height of the image in the tile image selector*/
 .tile img {
-    max-height: 200px;
+  max-height: 200px;
 }
-
+/* sets the margin below and font size of the text in the tile selector */
 .tile h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
+/* sets the style of the card to have the image on the left */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/* sets the style of the card to have the image on the right */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/*------------------------------Benefits-----------------------------*/
+
+/*sets the style of the benefits class selector*/
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
+/* Sets the style of each benefit section class selector */
 .benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 70px;
+  color: #ffffff;
 }
 
+/* sets the bottem margin and text alignment of h3 selector */
 .benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
+/* Sets the style of the image in each benefit class */
 .benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
-
-
-
+/*------------------------------Footer-----------------------------*/
+/* sets the style of the footer selector */
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  text-align: center;
 }
 
 .footer h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
